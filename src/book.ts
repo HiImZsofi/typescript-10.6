@@ -15,4 +15,8 @@ class Book{
             this.rating = rating;
         }
     }
+
+    public toString(): string {
+        return "A könyv neve: " + this.name + " értékelése: " + this.rating;
+    }
 }
