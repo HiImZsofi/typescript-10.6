@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Book = void 0;
 class Book {
     constructor(name, rating) {
         this.name = name;
@@ -16,3 +18,4 @@ class Book {
         return "A könyv neve: " + this.name + " értékelése: " + this.rating;
     }
 }
+exports.Book = Book;
