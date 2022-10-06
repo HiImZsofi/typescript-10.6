@@ -1,4 +1,4 @@
-class Book{
+export class Book{
     name : string;
     rating : number;
 
